@@ -1,0 +1,26 @@
+Link da documentação da navegação
+	https://getbootstrap.com/docs/4.1/components/navs/
+
+Link da barra de navegação
+	https://getbootstrap.com/docs/4.1/components/navbar/
+
+Link de site de imagens aleatorias:
+
+	https://source.unsplash.com/
+
+Link de sites com icones recomendados pelo Bootstrap:
+
+	https://getbootstrap.com/docs/4.0/extend/icons/
+	
+	https://useiconic.com/open#icons
+
+	https://fontawesome.com/icons
+
+Link explicativo da "Classe Flexbox":
+
+	https://getbootstrap.com/docs/4.0/utilities/flex/
+
+Link de configuração inicial do Bootstrap 4:
+
+	https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
+
