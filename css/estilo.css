@@ -1,10 +1,6 @@
 header {
 	background:  rgb(44,40,51);
 }
-#home {
-	background: rgb(69,63,77,0.8);
-	color: white;
-}
 
 /* FORMATAÇÃO DE BARRA DE NAVEGAÇÃO */
 
@@ -28,7 +24,8 @@ footer p a {
 }
 
 /* LAYOUT */
-/*
+
 body {
-	background: url(../imagens/welcome.png);
-}*/
+	background: rgb(69,63,77,0.8);
+	color: white;
+}
