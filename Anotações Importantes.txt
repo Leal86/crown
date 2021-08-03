@@ -24,3 +24,6 @@ Link de configuração inicial do Bootstrap 4:
 
 	https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
 
+Link de conversão e cores html
+	https://html-color-codes.info/convert-color-format/#
+
