@@ -18,15 +18,65 @@ header {
 }
 
 
+
 /* FORMATAÇÃO DO RODAPÉ */
 footer p a {
 	margin: 5px 15px;
 }
 
+
+
 /* LAYOUT */
+
+/*
+html, body, #home, #servicos, #sobre, #contatos {
+	height: 100%;
+	overflow-x: hidden;
+}
+*/
 
 body {
 	background: rgb(15,0,26,0.8);
 	color: white;
 }
+/* Capa */
 
+.capa {
+	text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 5%;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#home {
+		size: 750px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#home {
+		size: 750px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
