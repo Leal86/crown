@@ -51,7 +51,6 @@ body {
 
 
 
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	
@@ -64,16 +63,12 @@ body {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	#home {
-		size: 750px;
-	}
+	
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	#home {
-		size: 750px;
-	}
+	
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
