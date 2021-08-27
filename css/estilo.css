@@ -9,6 +9,17 @@ header {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.logoNav {
+  border: 1px solid red; 
+  margin-left: 30px;
+}
+
+.navbar-light .navbar-nav {
+  color: white;
+  border: 1px solid red;
+  margin-right: 30px;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -25,7 +36,7 @@ header {
 }
 
 #welcome {
-  width: 72%;
+  width: 100%;
   margin: auto;
 }
 
@@ -36,7 +47,10 @@ footer p a {
 	margin: 5px 15px;
 }
 
-
+footer div .rodape {
+  width: 1050px;
+  margin: auto;
+}
 
 /* LAYOUT */
 
@@ -48,7 +62,7 @@ html, body, #home, #servicos, #sobre, #contatos {
 */
 
 body {
-	background: rgb(15,0,26,0.8);
+	background: rgb(34,10,41);
 	color: white;
 }
 /* Capa */
@@ -61,11 +75,29 @@ body {
 	width: 5%;
 }
 
-#welcome .bemvindo{
-  text-align: center;
-  margin-top: 10px;
+#welcome p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
 }
 
+#welcome h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#welcome h6 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#welcome .textoWelcome {
+  margin: auto;
+  width: 1050px;
+  background: rgb(230, 230, 230);
+  color: black;
+}
 
 /* RESPONSIVIDADE */
 
