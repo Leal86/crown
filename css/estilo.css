@@ -103,6 +103,10 @@ body {
   color: black;
 }
 
+#servicos h2 {
+  margin: auto;
+}
+
 /* RESPONSIVIDADE */
 
 /* Extra small devices (portrait phones, less than 576px)*/
