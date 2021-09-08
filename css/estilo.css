@@ -225,9 +225,9 @@ body {
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1600px) {
   .areaNavegacao {
-    width: 1200px;
+    width: 1350px;
     border: 1px solid rgb(113, 51, 212);
   }
   
@@ -252,18 +252,43 @@ body {
   .navbar-light .navbar-nav .nav-link:hover {
       color: #daa520;
   }
-	
+
+  #carousel-controles {
+    width: 800px; 
+    height: 500px; 
+    border: 2px solid blue; 
+    margin: auto;
+  }
+  #carousel-controles {
+    width: 1350px; 
+    height: 630px; 
+    border: 2px solid blue; 
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-item {
+    width: 1350px;
+    height: 625px;
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-indicators {
+    border: 1px solid red; 
+    margin-bottom: 40px;
+  }
+
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1600px and up)*/
+@media (min-width: 1600.02px) and (max-width: 1900px){
 	.areaNavegacao {
     width: 1550px;
     border: 1px solid rgb(113, 51, 212);
+    margin: auto;
   }
   
   .logoNav {
-    width: 270px;
+    width: 300px;
     margin-left: 30px;
     border: 1px solid red; 
     
@@ -284,6 +309,23 @@ body {
       color: #daa520;
   }
   
+  #carousel-controles {
+    width: 1550px; 
+    height: 790px; 
+    border: 2px solid blue; 
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-item {
+    width: 1550px;
+    height: 785px;
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-indicators {
+    border: 1px solid red; 
+    margin-bottom: 40px;
+  }
 
 }
 
