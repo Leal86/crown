@@ -66,7 +66,7 @@ footer div .rodape {
 /* LAYOUT */
 
 
-html, body, #home, #welcome, #sobre, #servicos, #contatos {
+html, body, #welcome, #sobre, #servicos, #contatos {
 	height: 100%;
 	overflow-x: hidden;
   scroll-behavior: smooth;
@@ -222,6 +222,31 @@ body {
   .navbar-light .navbar-nav .nav-link:hover {
       color: #daa520;
   }
+
+  #carousel-controles {
+    width: 800px; 
+    height: 500px; 
+    border: 2px solid blue; 
+    margin: auto;
+  }
+  #carousel-controles {
+    width: 900px; 
+    height: 468px; 
+    border: 2px solid blue; 
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-item {
+    width: 900px;
+    height: 490px;
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-indicators {
+    border: 1px solid red; 
+    margin-bottom: 25px;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -280,7 +305,7 @@ body {
 }
 
 /* Extra large devices (large desktops, 1600px and up)*/
-@media (min-width: 1600.02px) and (max-width: 1900px){
+@media (min-width: 1600.02px){
 	.areaNavegacao {
     width: 1550px;
     border: 1px solid rgb(113, 51, 212);
