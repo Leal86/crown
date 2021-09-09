@@ -51,6 +51,10 @@ header {
   margin: auto;
 }
 
+#sobre {
+  width: 100%;
+  margin: auto;
+}
 
 
 /* FORMATAÇÃO DO RODAPÉ */
@@ -66,7 +70,7 @@ footer div .rodape {
 /* LAYOUT */
 
 
-html, body, #welcome, #sobre, #servicos, #contatos {
+html, body, #home, #welcome, #sobre, #servicos, #contatos {
 	height: 100%;
 	overflow-x: hidden;
   scroll-behavior: smooth;
@@ -307,7 +311,7 @@ body {
 /* Extra large devices (large desktops, 1600px and up)*/
 @media (min-width: 1600.02px){
 	.areaNavegacao {
-    width: 1550px;
+    width: 1600px;
     border: 1px solid rgb(113, 51, 212);
     margin: auto;
   }
@@ -335,21 +339,28 @@ body {
   }
   
   #carousel-controles {
-    width: 1550px; 
-    height: 790px; 
+    width: 1600px; 
+    height: 822px; 
     border: 2px solid blue; 
     margin: auto;
   }
 
   #carousel-controles .carousel-item {
-    width: 1550px;
-    height: 785px;
-    margin: auto;
+    width: 1600px;
+    height: 818px;
+    
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #carousel-controles .carousel-indicators {
     border: 1px solid red; 
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+  }
+
+  #welcome h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 }
