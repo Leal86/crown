@@ -27,3 +27,13 @@ Link de configuração inicial do Bootstrap 4:
 Link de conversão e cores html
 	https://html-color-codes.info/convert-color-format/#
 
+
+
+BREAK POINTS IDEAIS
+
+$screen-xs   = 520px  // Extra small screen / phone
+$screen-sm   = 768px  // Small screen / tablet
+$screen-md   = 992px  // Medium screen / desktop
+$screen-lg     = 1200px // Large screen / wide desktop
+$screen-xlg    = 1400px // Extra Large screen / wide desktop
+$screen-xxlg   = 1600px // Extra Large screen / wide desktop

@@ -4,13 +4,10 @@ header {
 
 .container-fluid {
   padding: 0px; 
- 
- 
 }
 
 .container {
   padding: 0px; 
-  
 }
 
 /* FORMATAÇÃO DE BARRA DE NAVEGAÇÃO */
@@ -40,7 +37,6 @@ header {
 
 #home, #welcome, #sobre {
   width: 100%;
-
 }
 
 
@@ -57,8 +53,12 @@ footer div .rodape {
 /* LAYOUT */
 
 
-html, body, #home, #welcome, #sobre, #servicos, #contatos {
+body, #home, #welcome, #sobre, #servicos, #contatos {
+  height: 100%;
 	overflow-x: hidden;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -108,7 +108,6 @@ body {
 
 #welcome .textoWelcome {
   margin: auto;
-  
   color: black;
 }
 
@@ -120,182 +119,46 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	.areaNavegacao {
-    border: 1px solid rgb(113, 51, 212);
-  }
-  
-  .logoNav {
-    width: 150px;
-    margin-left: 0px;
-    border: 1px solid red; 
-    
-  }
 
-  .btn-menu {
-    margin-right: 20px;
-  }
-
-  .navbar-light .navbar-nav {
-    color: white;
-    border: 1px solid yellow;
-    margin-left: 0px;
-    font-size: smaller;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-      color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: #daa520;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	.areaNavegacao {
-    border: 1px solid rgb(113, 51, 212);
-  }
-  
-  .logoNav {
-    width: 200px;
-    margin-left: 0px;
-    border: 1px solid red; 
-    
-  }
-
-  .btn-menu {
-    margin-right: 20px;
-  }
-
-  .navbar-light .navbar-nav {
-    color: white;
-    border: 1px solid yellow;
-    margin-left: 0px;
-    font-size: smaller;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-      color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: #daa520;
-  }
+	
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.areaNavegacao {
-    width: 900px;
-    border: 1px solid rgb(113, 51, 212);
-  }
-  
-  .logoNav {
-    width: 230px;
-    margin-left: 10px;
-    border: 1px solid red; 
-    
-  }
-
-  .navbar-light .navbar-nav {
-    color: white;
-    border: 1px solid yellow;
-    margin-right: 10px;
-    font-size: small;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-      color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: #daa520;
-  }
-
-  #carousel-controles {
-    width: 800px; 
-    height: 500px; 
-    border: 2px solid blue; 
-    margin: auto;
-  }
-  #carousel-controles {
-    width: 900px; 
-    height: 468px; 
-    border: 2px solid blue; 
-    margin: auto;
-  }
-
-  #carousel-controles .carousel-item {
-    width: 900px;
-    height: 490px;
-    margin: auto;
-  }
-
-  #carousel-controles .carousel-indicators {
-    border: 1px solid red; 
-    margin-bottom: 25px;
-  }
 
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1440px) {
-  .areaNavegacao {
-    width: 1350px;
-    border: 1px solid rgb(113, 51, 212);
-  }
-  
-  .logoNav {
-    width: 250px;
-    margin-left: 10px;
-    border: 1px solid red; 
-    
-  }
-
-  .navbar-light .navbar-nav {
-    color: white;
-    border: 1px solid yellow;
-    margin-right: 10px;
-    font-size: medium;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-      color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: #daa520;
-  }
-
-  #carousel-controles {
-    width: 800px; 
-    height: 500px; 
-    border: 2px solid blue; 
-    margin: auto;
-  }
-  #carousel-controles {
-    width: 1350px; 
-    height: 630px; 
-    border: 2px solid blue; 
-    margin: auto;
-  }
-
-  #carousel-controles .carousel-item {
-    width: 1350px;
-    height: 625px;
-    margin: auto;
-  }
-
-  #carousel-controles .carousel-indicators {
-    border: 1px solid red; 
-    margin-bottom: 40px;
-  }
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
 }
 
-/* Extra large devices (large desktops, 1600px and up)*/
-@media (min-width: 1440.02px){
+/* LG devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* XLG devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+
+}
+
+/* XXLG devices (large desktops, 1600px and up)*/
+@media (min-width: 1600px){
+  #home {
+    width: 1600px;
+    height: 820px;
+    margin: auto;
+  }
+  header {
+   width: 100%;
+   margin: auto;
+  }
+
 	.areaNavegacao {
     width: 1600px;
     border: 1px solid rgb(113, 51, 212);
@@ -325,38 +188,33 @@ body {
   }
   
   #carousel-controles {
-    width: 1600px; 
-    height: 822px; 
-    border: 1px solid blue; 
+    width: 1590px;
+    height: 818px;
+    border: 1px solid rgb(211, 48, 102); 
     margin: auto;
   }
 
   #carousel-controles .carousel-item {
-    width: 1600px;
-    height: 818px;
-    
-    margin-left: auto;
-    margin-right: auto;
+    width: 1595px;
+    height: 817px; 
   }
 
   #carousel-controles .carousel-indicators {
-    border: 1px solid red; 
+    border: 1px solid rgb(0, 255, 55); 
     margin-bottom: 50px;
   }
 
   .areaSlide {
-    width: 1600px;
-    border: 1px solid rgb(21, 184, 35);
+    border: 1px solid rgb(143, 7, 113);
     margin: auto;
   }
 
   #welcome h1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
 }
-
 
 
 /*
