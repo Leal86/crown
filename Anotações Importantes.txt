@@ -27,7 +27,10 @@ Link de configuração inicial do Bootstrap 4:
 Link de conversão e cores html
 	https://html-color-codes.info/convert-color-format/#
 
-
+Inspirações para melhora no projeto
+	http://www.themesindustry.com/html/studiox/index.html
+	http://www.themesindustry.com/html/bizone/index4.html
+	http://www.themesindustry.com/html/bizone/index.html
 
 BREAK POINTS IDEAIS
 
