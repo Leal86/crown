@@ -144,6 +144,75 @@ body {
 
 /* XLG devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) and (max-width: 1599.98px) {
+  #home {
+    width: 1300px;
+    height: 682px;
+    margin: auto;
+  }
+  header {
+   width: 100%;
+   margin: auto;
+  }
+
+	.areaNavegacao {
+    width: 1300px;
+    border: 1px solid rgb(113, 51, 212);
+    margin: auto;
+  }
+
+  .logoNav {
+    width: 280px;
+    margin-left: 30px;
+    border: 1px solid red; 
+    
+  }
+
+  .navbar-light .navbar-nav {
+    color: white;
+    border: 1px solid yellow;
+    margin-right: 30px;
+    font-size: large;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: #daa520;
+  }
+  
+  #carousel-controles {
+    width: 1300px;
+    height: 650px;
+    border: 1px solid rgb(211, 48, 102); 
+    margin: auto;
+  }
+
+  #carousel-controles .carousel-item {
+    width: 1300px;
+    height: 650px; 
+  }
+
+  #carousel-controles .carousel-indicators {
+    border: 1px solid rgb(0, 255, 55); 
+    margin-bottom: 50px;
+  }
+
+  .areaSlide {
+    border: 1px solid rgb(143, 7, 113);
+    margin: auto;
+  }
+
+  #welcome h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    size: 1em;
+  }
+
+  #welcome .textoWelcome .bemVindo{
+    size: 1em;
+  }
 
 }
 
