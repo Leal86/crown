@@ -84,7 +84,7 @@ body {
 #welcome p {
   margin-left: 25px;
   margin-right: 25px;
-  margin-top: 15px;
+  margin-top: 25px;
   text-align: justify;
 }
 
@@ -191,7 +191,7 @@ body {
 
   #carousel-controles .carousel-item {
     width: 1300px;
-    height: 650px; 
+    height: 630px; 
   }
 
   #carousel-controles .carousel-indicators {
@@ -220,9 +220,28 @@ body {
 @media (min-width: 1600px){
   #home {
     width: 1600px;
-    height: 820px;
+    height: 800px;
     margin: auto;
   }
+
+  #welcome {
+    width: 1600px;
+    height: 932px;
+    margin: auto;
+  }
+
+  #sobre {
+    width: 1600px;
+    height: 932px;
+    margin: auto;
+  }
+
+  #servicos {
+    width: 1600px;
+    height: 932px;
+    margin: auto;
+  }
+
   header {
    width: 100%;
    margin: auto;
@@ -257,20 +276,20 @@ body {
   }
   
   #carousel-controles {
-    width: 1590px;
-    height: 818px;
+    width: 1540px;
+    height: 792px;
     border: 1px solid rgb(211, 48, 102); 
     margin: auto;
   }
 
   #carousel-controles .carousel-item {
-    width: 1595px;
-    height: 817px; 
+    width: 1540px;
+    height: 795px; 
   }
 
   #carousel-controles .carousel-indicators {
     border: 1px solid rgb(0, 255, 55); 
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   .areaSlide {
