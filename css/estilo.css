@@ -115,6 +115,72 @@ body {
   margin: auto;
 }
 
+/* SECTION SERVIÇOS*/
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+
 /* RESPONSIVIDADE */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -144,78 +210,8 @@ body {
 
 /* XLG devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) and (max-width: 1599.98px) {
-  #home {
-    width: 1300px;
-    height: 682px;
-    margin: auto;
-  }
-  header {
-   width: 100%;
-   margin: auto;
-  }
-
-	.areaNavegacao {
-    width: 1300px;
-    border: 1px solid rgb(113, 51, 212);
-    margin: auto;
-  }
-
-  .logoNav {
-    width: 280px;
-    margin-left: 30px;
-    border: 1px solid red; 
-    
-  }
-
-  .navbar-light .navbar-nav {
-    color: white;
-    border: 1px solid yellow;
-    margin-right: 30px;
-    font-size: large;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-      color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: #daa520;
-  }
-  
-  #carousel-controles {
-    width: 1300px;
-    height: 650px;
-    border: 1px solid rgb(211, 48, 102); 
-    margin: auto;
-  }
-
-  #carousel-controles .carousel-item {
-    width: 1300px;
-    height: 630px; 
-  }
-
-  #carousel-controles .carousel-indicators {
-    border: 1px solid rgb(0, 255, 55); 
-    margin-bottom: 50px;
-  }
-
-  .areaSlide {
-    border: 1px solid rgb(143, 7, 113);
-    margin: auto;
-  }
-
-  #welcome h1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    size: 1em;
-  }
-
-  #welcome .textoWelcome .bemVindo{
-    size: 1em;
-  }
-
+ 
 }
-
 /* XXLG devices (large desktops, 1600px and up)*/
 @media (min-width: 1600px){
   #home {

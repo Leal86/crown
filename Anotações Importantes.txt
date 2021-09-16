@@ -32,6 +32,7 @@ Inspirações para melhora no projeto
 	http://www.themesindustry.com/html/bizone/index4.html
 	http://www.themesindustry.com/html/bizone/index.html
 	https://dental-compliance.co.uk/
+	https://startbootstrap.com/snippets/pricing-table
 
 BREAK POINTS IDEAIS
 
