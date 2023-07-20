@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+
+:root {
+    --cor-branco: #FCFCFC;
+    --cor-azul:#2E86AB;
+    --cor-lavanda: #A491D3;
+    --cor-roxo: #38009A;
+    --cor-roxo-escuro:#2c2833;
+    --cor-preto: #070707;
+  }
+
+ /* HEADER ******************************************************************************************************************************************************************************************/
+
+ header {
+    background-color: var(--cor-roxo-escuro);
+ }
+
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .cabecalho__area-logo {
+    text-align: left;
+ }
+
+ .cabecalho__logo{
+    width: 60vw;
+    padding: 3vw 0;
+ }
+
+ .cabecalho__menu {
+    padding: 10vw;
+ }
+
+ .img-menu {
+    width: 10vw;
+ }
